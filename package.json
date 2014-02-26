@@ -1,0 +1,25 @@
+{
+  "name": "joyplus",
+  "description":"joyplus",
+  "version":"0.2.0",
+  "dependencies":{
+    "express": "3.x",
+    "needle": "0.6.3",
+    "format": "0.2.0",
+    "bufferpack":"0.0.6",
+    "jade":"0.34.1",
+    "ejs":"0.8.4",
+    "bencode":"0.4.3",
+    "bases":"0.1.1",
+    "gbk":"0.0.1",
+    "dht-bencode":"0.1.2",
+    "async":"0.2.9",
+    "cheerio":"0.12.2",
+    "cookie":"0.1.0",
+    "cron":"1.0.1",
+    "time":"0.9.2",
+    "log":"1.4.0",
+    "iconv-lite":"*",
+    "download":"0.1.10"
+  }
+}
