@@ -29,8 +29,11 @@
 ### 调用举例
 
 1.	视频地址，如：<http://www.letv.com/ptv/vplay/1728622.html>
-2.	构造请求，如：<http://localhost:3000/letv/?url=http://www.letv.com/ptv/vplay/1728622.html>
+2.	构造请求，如：<http://revenge.daimajia.com/letv/?url=http://www.letv.com/ptv/vplay/1728622.html>
 3.	请求并获取数据
+
+<http://revenge.daimajia.com> 持续提供安全稳定的服务。
+
 
 ### 目前支持(括号内为请求方法)
 
@@ -50,5 +53,9 @@
 -------------------
 
 欢迎贡献更多的视频网站解析服务 :p
+
+最早做这个项目是在上海志精网络实习的时候做的，就在上海创新工场里喔，很靠谱的团队，想换坑，还想一展身手，不要犹豫啦。
+
+ps: [上海志精网络科技有限公司](http://www.joyplus.tv/)是专注于智能电视平台的智能大屏数据引擎解决方案供应商，提供智能电视端的数据统计、监控、分析、管理等一整套解决方案。
 
 如果有任何新想法，欢迎随时联系我：[daimajia#gmail.com](mailto:daimajia@gmail.com)
