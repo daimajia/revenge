@@ -29,11 +29,13 @@ function getMMSID(url,callback){
 }
 
 function getUrl(mmsid,name,callback){
-	var requestUrl = 'http://app.m.letv.com/android/mindex.php?mod=minfo&ctl=videofile&act=index&mmsid=%s&videoformat=ios&pcode=010510000&version=3.3.1';
+	var requestUrl = 'http://dynamic.app.m.letv.com/android/dynamic.php?mod=minfo&ctl=videofile&act=index&mmsid=%s&playid=0&tss=ios&tm=1394782467&pcode=010210205&version=5.2';
 	var toRequest = format(requestUrl,mmsid);
+	console.log(toRequest);
 	needle.get(toRequest,function(err,res,body){
 		if(!err){
 			var json = JSON.parse(body);
+			console.log(json);
 			try{
 				var infos = json.body.videofile.infos;
 				var finalResults = [];
